@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: rgb(0, 204, 255);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(255, 22, 22, 0.1);
+  position: relative; /* Allow absolute positioning of child elements */
+  height: 200px; /* Set a fixed height to accommodate all elements */
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.class-timing,
+.time-left,
+.upcoming-class {
+  font-size: 12px;
+  margin-top: 10px; /* Add margin to separate elements */
+}
+
+.class-timing {
+  position: absolute;
+  bottom: 60px; /* Positioning for class timing */
+  left: 10px;
+}
+
+.time-left {
+  position: absolute;
+  bottom: 40px; /* Positioning for time left */
+  left: 10px;
+}
+
+.upcoming-class {
+  position: absolute;
+  bottom: 20px; /* Positioning for upcoming class */
+  left: 10px;
+}
