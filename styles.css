@@ -20,7 +20,7 @@ body {
   width: 200px;
   box-shadow: 0 2px 5px rgba(255, 22, 22, 0.1);
   position: relative; /* Allow absolute positioning of child elements */
-  height: 200px; /* Set a fixed height to accommodate all elements */
+  height: 160px; /* Set a fixed height to accommodate all elements */
 }
 
 h2 {
@@ -54,4 +54,7 @@ p {
   position: absolute;
   bottom: 20px; /* Positioning for upcoming class */
   left: 10px;
+}
+.box {
+  cursor: pointer;
 }
