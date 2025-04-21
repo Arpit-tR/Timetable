@@ -202,7 +202,7 @@ function updateBoxes() {
   document.getElementById("output3").innerHTML = output3;
   document.getElementById("output4").innerHTML = output4;
 }
-
+/*
 document.getElementById("box1").addEventListener("click", function () {
   window.open("arpit.html", "_blank");
 });
@@ -218,6 +218,6 @@ document.getElementById("box3").addEventListener("click", function () {
 document.getElementById("box4").addEventListener("click", function () {
   window.open("timetables/dipankar.html", "_blank");
 });
-
+*/
 updateBoxes();
 setInterval(updateBoxes, 60000); // Update every minute
